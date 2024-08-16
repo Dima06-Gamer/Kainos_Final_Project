@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our Caregivers</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- jQuery CDN Import-->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR5CCsyA4/9"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .header, h4, h5 {
+            font-family: 'Roboto', sans-serif;
+        }
+        .caregiver-card {
+            margin-top: 30px;
+        }
+        .caregiver-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .caregiver-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .caregiver-description {
+            font-size: 1.1rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper blue">
+            <a href="#" class="brand-logo center">Our Caregivers</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html">Services</a></li>
+                <li><a href="home.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Caregivers Section -->
+    <div class="container">
+        <div class="section">
+            <h4 class="center">Meet Our Caregivers</h4>
+            <div class="row">
+                <div class="col s12 m4 caregiver-card">
+                    <img src="https://source.unsplash.com/featured/?nurse,caregiver" alt="Caregiver 1">
+                    <div class="caregiver-name">John Doe</div>
+                    <p class="caregiver-description">John has over 10 years of experience in elderly care. His compassionate nature and professional skills make him a valued member of our team.</p>
+                </div>
+                <div class="col s12 m4 caregiver-card">
+                    <img src="https://source.unsplash.com/featured/?childcare,nanny" alt="Caregiver 2">
+                    <div class="caregiver-name">Jane Smith</div>
+                    <p class="caregiver-description">Jane specializes in child care and has a warm, nurturing approach that helps children feel safe and cared for.</p>
+                </div>
+                <div class="col s12 m4 caregiver-card">
+                    <img src="https://source.unsplash.com/featured/?nurse,healthcare" alt="Caregiver 3">
+                    <div class="caregiver-name">Emily Johnson</div>
+                    <p class="caregiver-description">Emily is a licensed nurse with a focus on home nursing. She is dedicated to providing top-notch medical care in the comfort of her clients' homes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer blue">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Caretaking Services</h5>
+                    <p class="grey-text text-lighten-4">Providing professional and personalized care for those who need it most.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize all Materialize components
+            M.AutoInit();
+        });
+    </script>
+</body>
+</html>
